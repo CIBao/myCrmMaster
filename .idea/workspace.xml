@@ -1,0 +1,976 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="crm-master:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0245d7a2-4df6-4780-a578-eb0fcf19ccc4" name="Default Changelist" comment="项目提交成功">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/crm_master_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f1c8aed4-ba93-4368-b8aa-5245fb7afc2b.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f1c8aed4-ba93-4368-b8aa-5245fb7afc2b/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/ywq.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/cust/custinfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/cust/custmanage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/department/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/department/department.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/department/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/img/fall.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/log/log.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/permission/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/permission/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/permission/permission.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/user/addUser.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/user/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/user/query.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/jsp/user/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/asm-3.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/aspectjweaver-1.8.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/cglib-2.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-codec-1.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-collections-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-fileupload-1.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-io-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-lang3-3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-lang3-3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-pool2-2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/dom4j-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/druid-1.0.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/jackson-annotations-2.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/jackson-core-2.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/jackson-databind-2.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/json-20131018.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/mybatis-3.2.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/mybatis-spring-1.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/mysql-connector-java-5.1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/slf4j-api-1.6.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/slf4j-log4j12-1.6.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/spring-aop-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/spring-aspects-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/spring-beans-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/spring-context-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/spring-context-support-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/spring-core-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/spring-expression-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/spring-jdbc-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/spring-jms-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/spring-messaging-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/spring-test-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/spring-tx-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/spring-web-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/spring-webmvc-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/standard-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/tld/commons.tld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/bootstrap/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/css/boot-crm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/css/carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/css/dataTables.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/css/doc.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/css/metisMenu.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/css/sb-admin-2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/css/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/fonts/fontawesome4.2/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/fonts/fontawesome4.2/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/fonts/fontawesome4.2/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/fonts/fontawesome4.2/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/fonts/fontawesome4.2/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/img/Mt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/img/b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/img/carousel-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/img/carousel-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/img/carousel-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/img/fall.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/img/gou.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/img/p1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/img/p2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/img/p3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/img/p3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/img/product-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/img/product-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/img/product-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/img/product-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/img/product-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/img/product-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/img/product-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/img/product-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/img/product-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/img/product_detail_body.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/img/product_detail_head.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/img/services-box1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/img/services-box2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/img/services-box3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/img/services-box4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/img/z.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/jquery/jquery-2.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/js/dataTables.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/js/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/js/metisMenu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/js/sb-admin-2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/layer/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/layer/mobile/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/layer/mobile/need/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/layer/skin/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/layer/skin/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/layer/skin/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/layer/skin/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/layer/skin/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/layer/skin/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/com/ccc/common/utils/NavigationTag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/com/ccc/common/utils/Page.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/com/ccc/crm/controller/CustomerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/com/ccc/crm/mapper/BaseDictDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/com/ccc/crm/mapper/BaseDictDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/com/ccc/crm/mapper/CustomerDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/com/ccc/crm/mapper/CustomerDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/com/ccc/crm/pojo/BaseDict.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/com/ccc/crm/pojo/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/com/ccc/crm/pojo/QueryVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/com/ccc/crm/service/BaseDictService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/com/ccc/crm/service/BaseDictServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/com/ccc/crm/service/CustomerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/com/ccc/crm/service/CustomerServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/mybatis/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/resource.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/spring/applicationContext-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/spring/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/spring/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/sql/basesql.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crm-master.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.annotation.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.ejb.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.jms.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.persistence.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.resource.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.transaction.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/classes/META-INF/crm-master.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/classes/com/ccc/common/utils/NavigationTag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/classes/com/ccc/common/utils/Page.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/classes/com/ccc/crm/annotation/SystemControllerLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/classes/com/ccc/crm/annotation/SystemServiceLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/classes/com/ccc/crm/controller/DepartmentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/classes/com/ccc/crm/controller/LogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/classes/com/ccc/crm/controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/classes/com/ccc/crm/controller/PermissionController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/classes/com/ccc/crm/controller/ToPageController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/classes/com/ccc/crm/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/classes/com/ccc/crm/interceptor/LoginInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/classes/com/ccc/crm/mapper/DepartmentDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/classes/com/ccc/crm/mapper/DepartmentDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/classes/com/ccc/crm/mapper/LogDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/classes/com/ccc/crm/mapper/LogDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/classes/com/ccc/crm/mapper/PermissionDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/classes/com/ccc/crm/mapper/PermissionDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/classes/com/ccc/crm/mapper/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/classes/com/ccc/crm/mapper/UserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/classes/com/ccc/crm/pojo/AJAXResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/classes/com/ccc/crm/pojo/Department.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/classes/com/ccc/crm/pojo/Log.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/classes/com/ccc/crm/pojo/Permission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/classes/com/ccc/crm/pojo/QueryVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/classes/com/ccc/crm/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/classes/com/ccc/crm/service/DepartmentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/classes/com/ccc/crm/service/Impl/DepartmentServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/classes/com/ccc/crm/service/Impl/LogServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/classes/com/ccc/crm/service/Impl/PermissionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/classes/com/ccc/crm/service/Impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/classes/com/ccc/crm/service/LogService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/classes/com/ccc/crm/service/PermissionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/classes/com/ccc/crm/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/classes/mybatis/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/classes/resource.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/classes/spring/applicationContext-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/classes/spring/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/classes/spring/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/classes/sql/crm.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/jsp/cust/custinfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/jsp/cust/custmanage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/jsp/department/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/jsp/department/department.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/jsp/department/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/jsp/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/jsp/img/fall.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/jsp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/jsp/log/log.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/jsp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/jsp/permission/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/jsp/permission/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/jsp/permission/permission.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/jsp/user/addUser.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/jsp/user/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/jsp/user/query.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/jsp/user/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/lib/asm-3.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/lib/aspectjweaver-1.8.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/lib/cglib-2.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/lib/commons-codec-1.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/lib/commons-collections-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/lib/commons-fileupload-1.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/lib/commons-io-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/lib/commons-lang3-3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/lib/commons-lang3-3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/lib/commons-pool2-2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/lib/dom4j-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/lib/druid-1.0.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/lib/jackson-annotations-2.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/lib/jackson-core-2.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/lib/jackson-databind-2.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/lib/json-20131018.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/lib/mybatis-3.2.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/lib/mybatis-spring-1.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/lib/slf4j-api-1.6.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/lib/slf4j-log4j12-1.6.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/lib/spring-aop-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/lib/spring-aspects-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/lib/spring-beans-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/lib/spring-context-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/lib/spring-context-support-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/lib/spring-core-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/lib/spring-expression-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/lib/spring-jdbc-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/lib/spring-jms-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/lib/spring-messaging-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/lib/spring-test-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/lib/spring-tx-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/lib/spring-web-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/lib/spring-webmvc-4.1.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/lib/standard-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/tld/commons.tld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/bootstrap/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/css/boot-crm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/css/carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/css/dataTables.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/css/doc.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/css/metisMenu.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/css/sb-admin-2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/css/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/fonts/fontawesome4.2/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/fonts/fontawesome4.2/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/fonts/fontawesome4.2/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/fonts/fontawesome4.2/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/fonts/fontawesome4.2/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/img/Mt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/img/b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/img/carousel-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/img/carousel-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/img/carousel-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/img/fall.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/img/gou.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/img/p1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/img/p2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/img/p3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/img/p3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/img/product-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/img/product-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/img/product-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/img/product-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/img/product-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/img/product-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/img/product-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/img/product-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/img/product-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/img/product_detail_body.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/img/product_detail_head.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/img/services-box1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/img/services-box2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/img/services-box3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/img/services-box4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/img/z.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/jquery/jquery-2.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/js/dataTables.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/js/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/js/metisMenu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/js/sb-admin-2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/layer/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/layer/mobile/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/layer/mobile/need/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/layer/skin/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/layer/skin/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/layer/skin/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/layer/skin/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/layer/skin/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/crm_master_war_exploded/layer/skin/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/crm-master/com/ccc/common/utils/NavigationTag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/crm-master/com/ccc/common/utils/Page.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/crm-master/com/ccc/crm/annotation/SystemControllerLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/crm-master/com/ccc/crm/annotation/SystemServiceLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/crm-master/com/ccc/crm/controller/DepartmentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/crm-master/com/ccc/crm/controller/LogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/crm-master/com/ccc/crm/controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/crm-master/com/ccc/crm/controller/PermissionController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/crm-master/com/ccc/crm/controller/ToPageController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/crm-master/com/ccc/crm/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/crm-master/com/ccc/crm/interceptor/LoginInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/crm-master/com/ccc/crm/mapper/DepartmentDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/crm-master/com/ccc/crm/mapper/DepartmentDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/crm-master/com/ccc/crm/mapper/LogDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/crm-master/com/ccc/crm/mapper/LogDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/crm-master/com/ccc/crm/mapper/PermissionDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/crm-master/com/ccc/crm/mapper/PermissionDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/crm-master/com/ccc/crm/mapper/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/crm-master/com/ccc/crm/mapper/UserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/crm-master/com/ccc/crm/pojo/AJAXResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/crm-master/com/ccc/crm/pojo/Department.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/crm-master/com/ccc/crm/pojo/Log.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/crm-master/com/ccc/crm/pojo/Permission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/crm-master/com/ccc/crm/pojo/QueryVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/crm-master/com/ccc/crm/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/crm-master/com/ccc/crm/service/DepartmentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/crm-master/com/ccc/crm/service/Impl/DepartmentServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/crm-master/com/ccc/crm/service/Impl/LogServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/crm-master/com/ccc/crm/service/Impl/PermissionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/crm-master/com/ccc/crm/service/Impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/crm-master/com/ccc/crm/service/LogService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/crm-master/com/ccc/crm/service/PermissionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/crm-master/com/ccc/crm/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/crm-master/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/crm-master/mybatis/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/crm-master/resource.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/crm-master/spring/applicationContext-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/crm-master/spring/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/crm-master/spring/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/crm-master/sql/crm.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ccc/common/utils/NavigationTag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ccc/common/utils/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ccc/crm/annotation/SystemControllerLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ccc/crm/annotation/SystemServiceLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ccc/crm/controller/DepartmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ccc/crm/controller/LogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ccc/crm/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ccc/crm/controller/PermissionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ccc/crm/controller/ToPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ccc/crm/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ccc/crm/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ccc/crm/mapper/DepartmentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ccc/crm/mapper/DepartmentDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ccc/crm/mapper/LogDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ccc/crm/mapper/LogDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ccc/crm/mapper/PermissionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ccc/crm/mapper/PermissionDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ccc/crm/mapper/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ccc/crm/mapper/UserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ccc/crm/pojo/AJAXResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ccc/crm/pojo/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ccc/crm/pojo/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ccc/crm/pojo/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ccc/crm/pojo/QueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ccc/crm/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ccc/crm/service/DepartmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ccc/crm/service/Impl/DepartmentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ccc/crm/service/Impl/LogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ccc/crm/service/Impl/PermissionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ccc/crm/service/Impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ccc/crm/service/LogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ccc/crm/service/PermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ccc/crm/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mybatis/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring/applicationContext-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spring/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sql/crm.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/crm_master$t.ic" NAME="t Coverage Results" MODIFIED="1545140919458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExecutionTargetDialog">
+    <checked>
+      <node key="f1c8aed4-ba93-4368-b8aa-5245fb7afc2b" />
+    </checked>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="crm-master" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Navigation</find>
+      <find>navigation</find>
+      <find>custName</find>
+      <find>custSource</find>
+      <find>update</find>
+      <find>add_c</find>
+      <find>add_cus</find>
+      <find>stylesheet</find>
+      <find>getUserName</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="ywq" />
+        <option value="CIBao" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="28" />
+    <option name="width" value="1280" />
+    <option name="height" value="692" />
+  </component>
+  <component name="ProjectId" id="1VNJkglrWaqSwxHRO878sKInIxD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545914202301" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Shelf.Project.Settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/sql" />
+      <recent name="$PROJECT_DIR$/WebContent/WEB-INF/jsp" />
+      <recent name="$PROJECT_DIR$/WebContent/WEB-INF/jsp/permission" />
+      <recent name="$PROJECT_DIR$/WebContent/WEB-INF/jsp/log" />
+      <recent name="$PROJECT_DIR$/WebContent/WEB-INF/jsp/cust" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/WebContent/img" />
+      <recent name="$PROJECT_DIR$/WebContent/WEB-INF/jsp/img" />
+      <recent name="$PROJECT_DIR$/WebContent/WEB-INF/jsp" />
+      <recent name="$PROJECT_DIR$/WebContent" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ccc.crm.controller" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.ccc.crm.mapper" />
+      <recent name="com.ccc.crm.service.Impl" />
+      <recent name="com.ccc.crm.service" />
+      <recent name="com.ccc.crm.pojo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.t">
+    <configuration name="addUser.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.5.35" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/WEB-INF/jsp/user/addUser.jsp" />
+      <deployment>
+        <artifact name="crm-master:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/crm_master_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="addUser_jsp_crm-master" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Executor">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="crm-master:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="t" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.35" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/crm/login.html" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="crm-master:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/crm" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_crm-master_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="36911" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="JRebel Debug">
+        <option name="DEBUG_PORT" value="41369" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Executor">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="crm-master:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.t" />
+      <item itemvalue="Tomcat Server.addUser.jsp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Tomcat Server.addUser.jsp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@406c7cf5" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@42f5bcfb" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0245d7a2-4df6-4780-a578-eb0fcf19ccc4" name="Default Changelist" comment="" />
+      <created>1543050620956</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543050620956</updated>
+      <workItem from="1543050624055" duration="1645000" />
+      <workItem from="1543063673707" duration="4124000" />
+      <workItem from="1543192140875" duration="113000" />
+      <workItem from="1543287759820" duration="1320000" />
+      <workItem from="1543293882430" duration="62000" />
+      <workItem from="1543374259143" duration="1686000" />
+      <workItem from="1543461061353" duration="1523000" />
+      <workItem from="1543559331652" duration="1324000" />
+      <workItem from="1543560689946" duration="234000" />
+      <workItem from="1543562226479" duration="881000" />
+      <workItem from="1543669071877" duration="746000" />
+      <workItem from="1544075779974" duration="23274000" />
+      <workItem from="1544147981102" duration="1941000" />
+      <workItem from="1544177420639" duration="1146000" />
+      <workItem from="1544199914608" duration="10019000" />
+      <workItem from="1544211844047" duration="27688000" />
+      <workItem from="1544339855143" duration="28120000" />
+      <workItem from="1544410780725" duration="8223000" />
+      <workItem from="1544428545554" duration="7753000" />
+      <workItem from="1544441636332" duration="1638000" />
+      <workItem from="1544454981841" duration="1879000" />
+      <workItem from="1544460879197" duration="5430000" />
+      <workItem from="1544495847025" duration="3017000" />
+      <workItem from="1544499596278" duration="6368000" />
+      <workItem from="1544512695889" duration="6556000" />
+      <workItem from="1544525364637" duration="13229000" />
+      <workItem from="1544551037720" duration="1451000" />
+      <workItem from="1544552555428" duration="1098000" />
+      <workItem from="1544589087264" duration="2326000" />
+      <workItem from="1544615902182" duration="94000" />
+      <workItem from="1544668978624" duration="2834000" />
+      <workItem from="1544710881472" duration="599000" />
+      <workItem from="1544767963183" duration="659000" />
+      <workItem from="1544772642651" duration="598000" />
+      <workItem from="1544882038083" duration="10430000" />
+      <workItem from="1544971471460" duration="43000" />
+      <workItem from="1545024000861" duration="880000" />
+      <workItem from="1545137146811" duration="2922000" />
+      <workItem from="1545140463792" duration="4932000" />
+      <workItem from="1545148104198" duration="70000" />
+      <workItem from="1545362094137" duration="2464000" />
+      <workItem from="1545833001402" duration="101000" />
+      <workItem from="1545833153417" duration="1499000" />
+      <workItem from="1545870488881" duration="2722000" />
+      <workItem from="1545998818095" duration="616000" />
+      <workItem from="1546236316087" duration="882000" />
+      <workItem from="1577087765630" duration="1367000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="项目提交成功" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目提交成功" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="278" y="59" width="800" height="676" key="#Notifications" timestamp="1577088960480">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state x="278" y="59" width="800" height="676" key="#Notifications/0.28.1366.740@0.28.1366.740" timestamp="1577088960480" />
+    <state x="141" y="56" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577087928560">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state x="141" y="56" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.28.1366.740@0.28.1366.740" timestamp="1577087928560" />
+    <state x="172" y="28" width="1011" height="739" key="CommitChangelistDialog2" timestamp="1577089249153">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state x="172" y="28" width="1011" height="739" key="CommitChangelistDialog2/0.28.1366.740@0.28.1366.740" timestamp="1577089249153" />
+    <state x="454" y="141" width="447" height="512" key="FileChooserDialogImpl" timestamp="1577088541784">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state x="454" y="141" width="447" height="512" key="FileChooserDialogImpl/0.28.1366.740@0.28.1366.740" timestamp="1577088541784" />
+    <state width="903" height="175" key="GridCell.Tab.0.bottom" timestamp="1577087955029">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state width="903" height="175" key="GridCell.Tab.0.bottom/0.28.1366.740@0.28.1366.740" timestamp="1577087955029" />
+    <state width="903" height="175" key="GridCell.Tab.0.center" timestamp="1577087955028">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state width="903" height="175" key="GridCell.Tab.0.center/0.28.1366.740@0.28.1366.740" timestamp="1577087955028" />
+    <state width="903" height="175" key="GridCell.Tab.0.left" timestamp="1577087955026">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state width="903" height="175" key="GridCell.Tab.0.left/0.28.1366.740@0.28.1366.740" timestamp="1577087955026" />
+    <state width="903" height="175" key="GridCell.Tab.0.right" timestamp="1577087955028">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state width="903" height="175" key="GridCell.Tab.0.right/0.28.1366.740@0.28.1366.740" timestamp="1577087955028" />
+    <state width="903" height="175" key="GridCell.Tab.1.bottom" timestamp="1577087955032">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state width="903" height="175" key="GridCell.Tab.1.bottom/0.28.1366.740@0.28.1366.740" timestamp="1577087955032" />
+    <state width="903" height="175" key="GridCell.Tab.1.center" timestamp="1577087955031">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state width="903" height="175" key="GridCell.Tab.1.center/0.28.1366.740@0.28.1366.740" timestamp="1577087955031" />
+    <state width="903" height="175" key="GridCell.Tab.1.left" timestamp="1577087955030">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state width="903" height="175" key="GridCell.Tab.1.left/0.28.1366.740@0.28.1366.740" timestamp="1577087955030" />
+    <state width="903" height="175" key="GridCell.Tab.1.right" timestamp="1577087955031">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state width="903" height="175" key="GridCell.Tab.1.right/0.28.1366.740@0.28.1366.740" timestamp="1577087955031" />
+    <state width="903" height="175" key="GridCell.Tab.2.bottom" timestamp="1577087955034">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state width="903" height="175" key="GridCell.Tab.2.bottom/0.28.1366.740@0.28.1366.740" timestamp="1577087955034" />
+    <state width="903" height="175" key="GridCell.Tab.2.center" timestamp="1577087955033">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state width="903" height="175" key="GridCell.Tab.2.center/0.28.1366.740@0.28.1366.740" timestamp="1577087955033" />
+    <state width="903" height="175" key="GridCell.Tab.2.left" timestamp="1577087955032">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state width="903" height="175" key="GridCell.Tab.2.left/0.28.1366.740@0.28.1366.740" timestamp="1577087955032" />
+    <state width="903" height="175" key="GridCell.Tab.2.right" timestamp="1577087955034">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state width="903" height="175" key="GridCell.Tab.2.right/0.28.1366.740@0.28.1366.740" timestamp="1577087955034" />
+    <state width="903" height="175" key="GridCell.Tab.3.bottom" timestamp="1577087955037">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state width="903" height="175" key="GridCell.Tab.3.bottom/0.28.1366.740@0.28.1366.740" timestamp="1577087955037" />
+    <state width="903" height="175" key="GridCell.Tab.3.center" timestamp="1577087955035">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state width="903" height="175" key="GridCell.Tab.3.center/0.28.1366.740@0.28.1366.740" timestamp="1577087955035" />
+    <state width="903" height="175" key="GridCell.Tab.3.left" timestamp="1577087955035">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state width="903" height="175" key="GridCell.Tab.3.left/0.28.1366.740@0.28.1366.740" timestamp="1577087955035" />
+    <state width="903" height="175" key="GridCell.Tab.3.right" timestamp="1577087955036">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state width="903" height="175" key="GridCell.Tab.3.right/0.28.1366.740@0.28.1366.740" timestamp="1577087955036" />
+    <state x="166" y="28" width="1024" height="739" key="SettingsEditor" timestamp="1577088465605">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state x="166" y="28" width="1024" height="739" key="SettingsEditor/0.28.1366.740@0.28.1366.740" timestamp="1577088465605" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+</project>

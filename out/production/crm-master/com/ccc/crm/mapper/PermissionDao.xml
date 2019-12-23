@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ccc.crm.mapper.PermissionDao">
+
+    <insert id="addPermission" parameterType="Permission">
+    insert into
+    permission(id,permissionName,custManage,custInfo,
+    userManage,permissionManage,departmentManage,log,createTime,state)
+    values(null,#{permissionName},#{custManage},#{custInfo},#{userManage},#{permissionManage},#{departmentManage}, #{log}, #{createTime}, #{state});
+    </insert>
+
+
+    <select id="queryPermissionByName" parameterType="String" resultType="Permission">
+        select * from permission
+        <where>
+            permissionName = #{name}
+        </where>
+    </select>
+
+    <select id="queryPermissionById" parameterType="Integer" resultType="Permission">
+        select * from permission
+        <where>
+            id = #{id}
+        </where>
+    </select>
+
+    <select id="queryAllPermissionName" resultType="String">
+        select permissionName from permission
+    </select>
+
+    <select id="selectPermissionListByQueryVo" parameterType="QueryVo" resultType="Permission">
+        select * from permission
+        <where>
+            <if test="userName != null and userName != ''">
+                permissionName like "%"#{userName}"%"
+            </if>
+
+        </where>
+        limit #{startRow},#{size}
+    </select>
+
+    <select id="permissionCountByQueryVo" parameterType="QueryVo" resultType="Integer">
+        select count(*) from permission
+        <where>
+            <if test="userName != null and userName != ''">
+                permissionName like "%"#{userName}"%"
+            </if>
+
+        </where>
+    </select>
+
+    <delete id="permissionDeleteById" parameterType="Integer">
+		delete from permission where id=#{id}
+	</delete>
+
+
+    <select id="editPermission" parameterType="Permission" >
+        update permission
+        <set>
+            permissionName = #{permissionName},
+            custManage = #{custManage},
+            custInfo = #{custInfo},
+            userManage = #{userManage},
+            permissionManage = #{permissionManage},
+            departmentManage = #{departmentManage},
+            log = #{log},
+            state = #{state}
+        </set>
+        <where>
+            id = ${id}
+        </where>
+    </select>
+
+
+
+</mapper>

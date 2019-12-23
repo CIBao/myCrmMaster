@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ccc.crm.mapper.LogDao">
+
+    <select id="selectLogListByQueryVo" parameterType="QueryVo" resultType="Log">
+        select * from log
+        <where>
+            <if test="userName != null and userName != ''">
+                userName like "%"#{userName}"%"
+            </if>
+
+        </where>
+        order by operaTime DESC
+        limit #{startRow},#{size}
+    </select>
+
+    <select id="logCountByQueryVo" parameterType="QueryVo" resultType="Integer">
+        select count(*) from log
+        <where>
+            <if test="userName != null and userName != ''">
+                userName like "%"#{userName}"%"
+            </if>
+        </where>
+    </select>
+
+    <insert id="writeOneLog" parameterType="Log">
+    insert into
+    log(id,userName,userNumber,department,module,
+        ip,loginTime,opera,operaTime,state,logoutTime)
+      values(null,#{userName},#{userNumber},#{department},#{module},
+      #{ip},#{loginTime}, #{opera}, #{operaTime}, #{state},#{logoutTime});
+    </insert>
+
+</mapper>

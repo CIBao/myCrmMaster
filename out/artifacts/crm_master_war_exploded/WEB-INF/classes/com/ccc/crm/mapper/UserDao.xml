@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ccc.crm.mapper.UserDao">
+
+    <select id="query4Login" parameterType="User" resultType="User">
+        select * from user
+        <where>
+            username = #{username} and passwd = #{passwd}
+        </where>
+    </select>
+
+
+    <select id="selectUserListByQueryVo" parameterType="QueryVo" resultType="User">
+        select * from user
+        <where>
+            <if test="userName != null and userName != ''">
+                username like "%"#{userName}"%"
+            </if>
+            <if test="custSource != null and custSource != ''">
+                and cust_source = #{custSource}
+            </if>
+            <if test="custIndustry != null and custIndustry != ''">
+                and cust_industry = #{custIndustry}
+            </if>
+            <if test="custLevel != null and custLevel != ''">
+                and cust_level = #{custLevel}
+            </if>
+        </where>
+        limit #{startRow},#{size}
+    </select>
+
+    <select id="userCountByQueryVo" parameterType="QueryVo" resultType="Integer">
+        select count(*) from user
+        <where>
+            <if test="userName != null and userName != ''">
+                username like "%"#{userName}"%"
+            </if>
+            <if test="custSource != null and custSource != ''">
+                and cust_source = #{custSource}
+            </if>
+            <if test="custIndustry != null and custIndustry != ''">
+                and cust_industry = #{custIndustry}
+            </if>
+            <if test="custLevel != null and custLevel != ''">
+                and cust_level = #{custLevel}
+            </if>
+        </where>
+    </select>
+
+
+    <!-- 通过ID查询客户 -->
+    <select id="selectUserById" parameterType="Integer" resultType="User">
+        select * from user
+        <where>
+            id =#{id}
+        </where>
+
+    </select>
+
+    <!-- //通过ID删除客户 -->
+    <delete id="deleteUserById" parameterType="Integer">
+		delete from user where id=#{id}
+	</delete>
+
+    <insert id="addUser" parameterType="User">
+    insert into
+    user(id,username,passwd,department,createTime,workNumber,phoneNumber,jobCategory,jobRank,permission,
+    comment,workName,sex,staffState,jobState,email,qq,staffNumber)
+    values(null,#{username},#{passwd},#{department},#{createTime},#{workNumber},#{phoneNumber},#{jobCategory},#{jobRank}
+    ,#{permission},#{comment},#{workName},#{sex},#{staffState},#{jobState},#{email},#{qq},#{staffNumber});
+
+    </insert>
+
+
+    <select id="editUserById" parameterType="User" >
+        update user
+        <set>
+            username = #{username},
+            department = #{department},
+            workNumber = #{workNumber},
+            phoneNumber = #{phoneNumber},
+            jobCategory = #{jobCategory},
+            jobRank = #{jobRank},
+            permission = #{permission},
+            comment = #{comment},
+            workName = #{workName},
+            sex = #{sex},
+            staffState = #{staffState},
+            jobState = #{jobState},
+            email = #{email},
+            qq = #{qq},
+            staffNumber = #{staffNumber}
+        </set>
+        <where>
+            id = ${id}
+        </where>
+    </select>
+
+</mapper>
